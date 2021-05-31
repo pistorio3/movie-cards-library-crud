@@ -15,8 +15,6 @@ class EditMovie extends Component {
       status: 'loading',
       shouldRedirect: false,
     };
-
-    this.handleSubmit = this.handleSubmit.bind(this);
   }
 
   componentDidMount() {
